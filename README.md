@@ -35,5 +35,18 @@
   </font>
   
   </li>
+  <li>Execute a Classe com Run/Java Application e você verá no console os resultados</li>
+</ul>
+
+<h3>Adicionando Documentos a nossa Coleção</h3>
+<ul>
+  <li>Basta construir o código abaixo:</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Document cardapioNovo = new Document().append("nome", "Cardapio - Quarta-Feira")</br>.append("dataCriacao", "02/07/2016").</br>append("pratos", Arrays.asList(new Document().append("id", "1")")</br>.append("nome", "Caldo verde")")</br>.append("preço", "15,90")")</br>.append("dataCriacao", "02/07/2016"),
+				</br>new Document().append("id", "1")")</br>.append("nome", "Canja")")</br>.append("preço", "15,90")")</br>.append("dataCriacao", "02/07/2016"),
+				</br>new Document()")</br>.append("id", "1")")</br>.append("nome", "Sopa de Ervilha").append("preço", "15,90").append("dataCriacao", "02/07/2016"),
+				</br>new Document().append("id", "1").append("nome", "Vaca atolada").append("preço", "15,90").append("dataCriacao", "02/07/2016")));
+		</br>
+		cardapios.insertOne(cardapioNovo);
+  <li>Dê um nome para do seu projeto no "Artifact Id" no meu caso usei PrjJavaMongo</li> 
 </ul>
 
