@@ -1,5 +1,5 @@
 # java_mongodb
-<h1>Tutorial de Java com MongoDB</h1>
+<h2>Tutorial de Java com MongoDB</h2>
 
 <p>Antes de tudo baixe o mondodb clicando <a href="https://www.mongodb.com">aqui</a>. A documentação do MongoDB para quem quiser saber mais a respeito do banco está <a href="https://docs.mongodb.com">aqui</a>.
 
